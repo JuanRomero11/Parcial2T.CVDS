@@ -19,6 +19,10 @@
             p.fecha_nacimiento,
             p.nombre
         FROM
-            PACIENTES as p
+            PACIENTES as p, CONSULTAS as c
+            where p.id = c.PACIENTES_ID
+            order by c.fecha_y_hora;
+            
+          select * from PACIENTES p;
     </select>
 </mapper>
