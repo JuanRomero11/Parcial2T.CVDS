@@ -1,0 +1,2 @@
+# Parcial2T.CVDS
+JUAN ROMERO
